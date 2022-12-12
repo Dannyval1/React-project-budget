@@ -12,7 +12,7 @@ const ListadoGastos = ({
     <div className="listados-gastos contenedor">
       {filtro ? (
         <>
-          <h2>{gastosFiltrados.length ? "Gastos" : "No hay gastos en esta categoria"}</h2>
+          <h2>{gastosFiltrados.length ? "Gastos" : "There are no expenses in this category"}</h2>
 
           {gastosFiltrados.map((gasto) => (
             <Gasto

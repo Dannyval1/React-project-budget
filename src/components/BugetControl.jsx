@@ -53,7 +53,7 @@ const BugetControl = ({ budget, setBudget, gastos, setGastos, setIsValidBudget }
             textColor: porcentaje > 100 ? "#DC2626" : "#3b82f6",
           })}
           value={porcentaje}
-          text={`${porcentaje}% Gastado`}
+          text={`${porcentaje}% Spent`}
         />
       </div>
       <div className="contenido-presupuesto">

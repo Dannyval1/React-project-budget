@@ -5,15 +5,15 @@ const Filtros = ({ filtro, setFiltro }) => {
     <div className="filtros sombra contenedor">
       <form>
         <div className="campo">
-          <label>Filtrar Gastos</label>
+          <label>Filter Expenses</label>
           <select value={filtro} onChange={(e) => setFiltro(e.target.value)}>
             <option value="">-- All categories --</option>
-            <option value="ahorro">Ahorro</option>
-            <option value="comida">Comida</option>
-            <option value="casa">Casa</option>
-            <option value="gastos">Gastos</option>
-            <option value="ocio">Ocio</option>
-            <option value="salud">Salud</option>
+            <option value="ahorro">Saving</option>
+            <option value="comida">Food</option>
+            <option value="casa">House</option>
+            <option value="gastos">Spent</option>
+            <option value="ocio">Leisure</option>
+            <option value="salud">Health</option>
           </select>
         </div>
       </form>
